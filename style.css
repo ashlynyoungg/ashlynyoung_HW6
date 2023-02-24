@@ -3,7 +3,7 @@
     background-color: #FBF8F1;
 }
 
-.page_2 {
+.page_2{
     background-color: #FBF8F1;
 }
 
@@ -17,8 +17,8 @@ header {
 nav {
     background-color: #92DEE4;
     margin-top: 5px;
-    margin-bottom: 5px;
     padding:5px;
+    vertical-align: center;
 }
 
 a {
@@ -41,6 +41,8 @@ a:link {
 
 main {
     background-color: #C5EEEF;
+    padding-left: 15px;
+    padding-bottom: 15px;
 }
 
 footer {
@@ -51,15 +53,28 @@ footer {
 }
 
 .list {
-    width:55%;
+    width: 55%;
     margin-right:2%;
     float: left;
+    font-size: large;
 }
 
 .table {
     width: 42%;
     float: right;
     border-collapse: collapse;
+    padding-bottom: 25px;
+}
+
+.table tr, th, td{
+    background-color: #FBF8F1;
+    border: 2px solid #FBF8F1;
+    border-collapse: collapse;
+}
+
+.table caption{
+    font-weight: bold;
+    font-size:large;
 }
 
 .clearfix {
@@ -67,10 +82,16 @@ footer {
 }
 
 hr {
-    border: 2.5px solid white;
+    border: 2.5px solid #FBF8F1;
+    margin: 8px -1000px;
 }
 
 img {
-    max-width: 100%;
+    width: 500px;
     height: auto;
 }
+
+h3 {
+    margin-left: 20px;
+}
+
